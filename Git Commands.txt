@@ -1,0 +1,12 @@
+
+To Upload 
+---------
+git add . 
+git commit -m "<commit title>"
+git push
+
+Then, Enter github and create pull request.
+
+To Pull locally the files
+------------------------
+git pull
