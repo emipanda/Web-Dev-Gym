@@ -1,0 +1,48 @@
+﻿@model Web_Dev_Proj_Gym.Models.Lesson
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Lesson</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LessonDuration" class="control-label"></label>
+                <input asp-for="LessonDuration" class="form-control" />
+                <span asp-validation-for="LessonDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CalorieBurn" class="control-label"></label>
+                <input asp-for="CalorieBurn" class="form-control" />
+                <span asp-validation-for="CalorieBurn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxParticipants" class="control-label"></label>
+                <input asp-for="MaxParticipants" class="form-control" />
+                <span asp-validation-for="MaxParticipants" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LessonType" class="control-label"></label>
+                <input asp-for="LessonType" class="form-control" />
+                <span asp-validation-for="LessonType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
