@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Web_Dev_Proj_Gym.Models
 {
-    public class CustomerTrainings
+    public class CustomerTrainings// an event of a lesson - a lesson with a time and place
     {
         public int ID { get; set; }
 
