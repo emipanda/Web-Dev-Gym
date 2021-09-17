@@ -9,4 +9,5 @@ Then, Enter github and create pull request.
 
 To Pull locally the files
 ------------------------
+In github click on fetch upstream
 git pull
