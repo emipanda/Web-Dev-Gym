@@ -1,0 +1,43 @@
+﻿@model Web_Dev_Proj_Gym.Models.BranchManager
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>BranchManager</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BMUserName" class="control-label"></label>
+                <input asp-for="BMUserName" class="form-control" />
+                <span asp-validation-for="BMUserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BMPassword" class="control-label"></label>
+                <input asp-for="BMPassword" class="form-control" />
+                <span asp-validation-for="BMPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BMName" class="control-label"></label>
+                <input asp-for="BMName" class="form-control" />
+                <span asp-validation-for="BMName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

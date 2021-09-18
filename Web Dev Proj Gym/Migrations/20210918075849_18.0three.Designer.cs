@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web_Dev_Proj_Gym.Data;
 
 namespace Web_Dev_Proj_Gym.Migrations
 {
     [DbContext(typeof(Web_Dev_Proj_GymContext))]
-    partial class Web_Dev_Proj_GymContextModelSnapshot : ModelSnapshot
+    [Migration("20210918075849_18.0three")]
+    partial class _180three
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,7 +49,12 @@ namespace Web_Dev_Proj_Gym.Migrations
                     b.Property<int>("NumOfEmployees")
                         .HasColumnType("int");
 
+                    b.Property<int?>("ThisBranchsManagerID")
+                        .HasColumnType("int");
+
                     b.HasKey("ID");
+
+                    b.HasIndex("ThisBranchsManagerID");
 
                     b.ToTable("Branch");
                 });
@@ -68,12 +75,7 @@ namespace Web_Dev_Proj_Gym.Migrations
                     b.Property<int>("BMUserName")
                         .HasColumnType("int");
 
-                    b.Property<int?>("BranchID")
-                        .HasColumnType("int");
-
                     b.HasKey("ID");
-
-                    b.HasIndex("BranchID");
 
                     b.ToTable("BranchManager");
                 });
@@ -238,11 +240,13 @@ namespace Web_Dev_Proj_Gym.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Web_Dev_Proj_Gym.Models.BranchManager", b =>
+            modelBuilder.Entity("Web_Dev_Proj_Gym.Models.Branch", b =>
                 {
-                    b.HasOne("Web_Dev_Proj_Gym.Models.Branch", null)
-                        .WithMany("Manager")
-                        .HasForeignKey("BranchID");
+                    b.HasOne("Web_Dev_Proj_Gym.Models.BranchManager", "ThisBranchsManager")
+                        .WithMany()
+                        .HasForeignKey("ThisBranchsManagerID");
+
+                    b.Navigation("ThisBranchsManager");
                 });
 
             modelBuilder.Entity("Web_Dev_Proj_Gym.Models.Customer", b =>
@@ -293,8 +297,6 @@ namespace Web_Dev_Proj_Gym.Migrations
             modelBuilder.Entity("Web_Dev_Proj_Gym.Models.Branch", b =>
                 {
                     b.Navigation("LessonList");
-
-                    b.Navigation("Manager");
                 });
 
             modelBuilder.Entity("Web_Dev_Proj_Gym.Models.Customer", b =>
