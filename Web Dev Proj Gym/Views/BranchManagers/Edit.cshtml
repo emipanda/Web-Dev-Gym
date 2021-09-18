@@ -1,4 +1,4 @@
-﻿@model Web_Dev_Proj_Gym.Models.Admin
+﻿@model Web_Dev_Proj_Gym.Models.BranchManager
 
 @{
     ViewData["Title"] = "Edit";
@@ -6,7 +6,7 @@
 
 <h1>Edit</h1>
 
-<h4>Admin</h4>
+<h4>BranchManager</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -14,19 +14,19 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="ID" />
             <div class="form-group">
-                <label asp-for="AdminUserName" class="control-label"></label>
-                <input asp-for="AdminUserName" class="form-control" />
-                <span asp-validation-for="AdminUserName" class="text-danger"></span>
+                <label asp-for="BMUserName" class="control-label"></label>
+                <input asp-for="BMUserName" class="form-control" />
+                <span asp-validation-for="BMUserName" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AdminPassword" class="control-label"></label>
-                <input asp-for="AdminPassword" class="form-control" />
-                <span asp-validation-for="AdminPassword" class="text-danger"></span>
+                <label asp-for="BMPassword" class="control-label"></label>
+                <input asp-for="BMPassword" class="form-control" />
+                <span asp-validation-for="BMPassword" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AdminName" class="control-label"></label>
-                <input asp-for="AdminName" class="form-control" />
-                <span asp-validation-for="AdminName" class="text-danger"></span>
+                <label asp-for="BMName" class="control-label"></label>
+                <input asp-for="BMName" class="form-control" />
+                <span asp-validation-for="BMName" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />

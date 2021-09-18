@@ -26,6 +26,8 @@ namespace Web_Dev_Proj_Gym.Data
 
         public DbSet<Web_Dev_Proj_Gym.Models.Customer> Customer { get; set; }
 
-        public DbSet<Web_Dev_Proj_Gym.Models.Admin> Admin { get; set; }
+        public DbSet<Web_Dev_Proj_Gym.Models.BranchManager> BranchManager{ get; set; }
+
+        public DbSet<Web_Dev_Proj_Gym.Models.SuperAdmin> SuperAdmin { get; set; }
     }
 }

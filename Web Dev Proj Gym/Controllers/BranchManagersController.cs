@@ -10,22 +10,22 @@ using Web_Dev_Proj_Gym.Models;
 
 namespace Web_Dev_Proj_Gym.Controllers
 {
-    public class AdminsController : Controller
+    public class BranchManagersController : Controller
     {
         private readonly Web_Dev_Proj_GymContext _context;
 
-        public AdminsController(Web_Dev_Proj_GymContext context)
+        public BranchManagersController(Web_Dev_Proj_GymContext context)
         {
             _context = context;
         }
 
-        // GET: Admins
+        // GET: BranchManagers
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Admin.ToListAsync());
+            return View(await _context.BranchManager.ToListAsync());
         }
 
-        // GET: Admins/Details/5
+        // GET: BranchManagers/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -33,39 +33,39 @@ namespace Web_Dev_Proj_Gym.Controllers
                 return NotFound();
             }
 
-            var admin = await _context.Admin
+            var branchManager = await _context.BranchManager
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (admin == null)
+            if (branchManager == null)
             {
                 return NotFound();
             }
 
-            return View(admin);
+            return View(branchManager);
         }
 
-        // GET: Admins/Create
+        // GET: BranchManagers/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Admins/Create
+        // POST: BranchManagers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,AdminUserName,AdminPassword,AdminName")] Admin admin)
+        public async Task<IActionResult> Create([Bind("BMID,BMUserName,BMPassword,BMName")] BranchManager branchManager)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(admin);
+                _context.Add(branchManager);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(admin);
+            return View(branchManager);
         }
 
-        // GET: Admins/Edit/5
+        // GET: BranchManagers/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -73,22 +73,22 @@ namespace Web_Dev_Proj_Gym.Controllers
                 return NotFound();
             }
 
-            var admin = await _context.Admin.FindAsync(id);
-            if (admin == null)
+            var branchManager = await _context.BranchManager.FindAsync(id);
+            if (branchManager == null)
             {
                 return NotFound();
             }
-            return View(admin);
+            return View(branchManager);
         }
 
-        // POST: Admins/Edit/5
+        // POST: BranchManagers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,AdminUserName,AdminPassword,AdminName")] Admin admin)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,BMUserName,BMPassword,BMName")] BranchManager branchManager)
         {
-            if (id != admin.ID)
+            if (id != branchManager.ID)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace Web_Dev_Proj_Gym.Controllers
             {
                 try
                 {
-                    _context.Update(admin);
+                    _context.Update(branchManager);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!AdminExists(admin.ID))
+                    if (!BranchManagerExists(branchManager.ID))
                     {
                         return NotFound();
                     }
@@ -113,10 +113,10 @@ namespace Web_Dev_Proj_Gym.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(admin);
+            return View(branchManager);
         }
 
-        // GET: Admins/Delete/5
+        // GET: BranchManagers/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -124,30 +124,30 @@ namespace Web_Dev_Proj_Gym.Controllers
                 return NotFound();
             }
 
-            var admin = await _context.Admin
+            var branchManager = await _context.BranchManager
                 .FirstOrDefaultAsync(m => m.ID == id);
-            if (admin == null)
+            if (branchManager == null)
             {
                 return NotFound();
             }
 
-            return View(admin);
+            return View(branchManager);
         }
 
-        // POST: Admins/Delete/5
+        // POST: BranchManagers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var admin = await _context.Admin.FindAsync(id);
-            _context.Admin.Remove(admin);
+            var branchManager = await _context.BranchManager.FindAsync(id);
+            _context.BranchManager.Remove(branchManager);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool AdminExists(int id)
+        private bool BranchManagerExists(int id)
         {
-            return _context.Admin.Any(e => e.ID == id);
+            return _context.BranchManager.Any(e => e.ID == id);
         }
     }
 }

@@ -10,85 +10,85 @@ using Web_Dev_Proj_Gym.Models;
 
 namespace Web_Dev_Proj_Gym.Controllers
 {
-    public class BranchesController : Controller
+    public class SuperAdminsController : Controller
     {
         private readonly Web_Dev_Proj_GymContext _context;
 
-        public BranchesController(Web_Dev_Proj_GymContext context)
+        public SuperAdminsController(Web_Dev_Proj_GymContext context)
         {
             _context = context;
         }
 
-        // GET: Branches
+        // GET: SuperAdmins
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Branch.ToListAsync());
+            return View(await _context.SuperAdmin.ToListAsync());
         }
 
-        // GET: Branches/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: SuperAdmins/Details/5
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var branch = await _context.Branch
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (branch == null)
+            var superAdmin = await _context.SuperAdmin
+                .FirstOrDefaultAsync(m => m.SMUserName == id);
+            if (superAdmin == null)
             {
                 return NotFound();
             }
 
-            return View(branch);
+            return View(superAdmin);
         }
 
-        // GET: Branches/Create
+        // GET: SuperAdmins/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Branches/Create
+        // POST: SuperAdmins/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Address,NumOfEmployees")] Branch branch)
+        public async Task<IActionResult> Create([Bind("SMUserName,SMpassword")] SuperAdmin superAdmin)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(branch);
+                _context.Add(superAdmin);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(branch);
+            return View(superAdmin);
         }
 
-        // GET: Branches/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        // GET: SuperAdmins/Edit/5
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var branch = await _context.Branch.FindAsync(id);
-            if (branch == null)
+            var superAdmin = await _context.SuperAdmin.FindAsync(id);
+            if (superAdmin == null)
             {
                 return NotFound();
             }
-            return View(branch);
+            return View(superAdmin);
         }
 
-        // POST: Branches/Edit/5
+        // POST: SuperAdmins/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Address,NumOfEmployees")] Branch branch)
+        public async Task<IActionResult> Edit(string id, [Bind("SMUserName,SMpassword")] SuperAdmin superAdmin)
         {
-            if (id != branch.ID)
+            if (id != superAdmin.SMUserName)
             {
                 return NotFound();
             }
@@ -97,12 +97,12 @@ namespace Web_Dev_Proj_Gym.Controllers
             {
                 try
                 {
-                    _context.Update(branch);
+                    _context.Update(superAdmin);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!BranchExists(branch.ID))
+                    if (!SuperAdminExists(superAdmin.SMUserName))
                     {
                         return NotFound();
                     }
@@ -113,41 +113,41 @@ namespace Web_Dev_Proj_Gym.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(branch);
+            return View(superAdmin);
         }
 
-        // GET: Branches/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: SuperAdmins/Delete/5
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var branch = await _context.Branch
-                .FirstOrDefaultAsync(m => m.ID == id);
-            if (branch == null)
+            var superAdmin = await _context.SuperAdmin
+                .FirstOrDefaultAsync(m => m.SMUserName == id);
+            if (superAdmin == null)
             {
                 return NotFound();
             }
 
-            return View(branch);
+            return View(superAdmin);
         }
 
-        // POST: Branches/Delete/5
+        // POST: SuperAdmins/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var branch = await _context.Branch.FindAsync(id);
-            _context.Branch.Remove(branch);
+            var superAdmin = await _context.SuperAdmin.FindAsync(id);
+            _context.SuperAdmin.Remove(superAdmin);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool BranchExists(int id)
+        private bool SuperAdminExists(string id)
         {
-            return _context.Branch.Any(e => e.ID == id);
+            return _context.SuperAdmin.Any(e => e.SMUserName == id);
         }
     }
 }
