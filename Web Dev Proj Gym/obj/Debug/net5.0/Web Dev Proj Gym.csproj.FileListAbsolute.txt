@@ -136,7 +136,6 @@ C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\runtimes\win-x64\native\
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.csprojAssemblyReference.cache
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.GeneratedMSBuildEditorConfig.editorconfig
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.AssemblyInfoInputs.cache
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.AssemblyInfo.cs
@@ -392,3 +391,14 @@ C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Details.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Edit.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.csproj.AssemblyReference.cache
