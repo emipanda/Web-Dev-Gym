@@ -12,6 +12,7 @@ namespace Web_Dev_Proj_Gym.Models
         public int AdminUserName { get; set; }
         public string AdminPassword{ get; set; }
         public string AdminName { get; set; }
+        public Branch ManagersBranch{ get; set; }
 
 
     }

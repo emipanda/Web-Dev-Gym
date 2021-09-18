@@ -13,6 +13,8 @@ namespace Web_Dev_Proj_Gym.Models
 
         public  int NumOfEmployees { get; set; }
 
+        public string Manager { get; set; }
+
         public List<Lesson>  LessonList { get; set; }
 
         public List<Employee> EmployeeList { get; set; }

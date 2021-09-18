@@ -54,7 +54,7 @@ namespace Web_Dev_Proj_Gym.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,StateID,FullName,YearsOfExperience,Age")] Employee employee)
+        public async Task<IActionResult> Create([Bind("ID,State ID,Full Name,Years Of Experience,Age")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace Web_Dev_Proj_Gym.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,StateID,FullName,YearsOfExperience,Age")] Employee employee)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,State ID,Full Name,Years Of Experience,Age")] Employee employee)
         {
             if (id != employee.ID)
             {
