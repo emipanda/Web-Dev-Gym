@@ -15,7 +15,7 @@ namespace Web_Dev_Proj_Gym.Models
 
         public int YearsOfExperience { get; set; }
 
-        public int Age { get; set; }
+        public int Age { get; set; } 
 
         public List<Lesson> EmployeeLessonList{ get; set; }
 

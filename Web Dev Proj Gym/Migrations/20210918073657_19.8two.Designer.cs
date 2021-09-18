@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web_Dev_Proj_Gym.Data;
 
 namespace Web_Dev_Proj_Gym.Migrations
 {
     [DbContext(typeof(Web_Dev_Proj_GymContext))]
-    partial class Web_Dev_Proj_GymContextModelSnapshot : ModelSnapshot
+    [Migration("20210918073657_19.8two")]
+    partial class _198two
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
