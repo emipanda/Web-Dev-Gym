@@ -7471,19 +7471,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ytalu\\.nuget\\packages\\": {}
+    "C:\\Users\\emily\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Colman\\Web-Dev-Gym\\Web-Dev-Gym\\Web Dev Proj Gym\\Web Dev Proj Gym.csproj",
+      "projectUniqueName": "C:\\Colman\\Web-Dev-Gym\\Web Dev Proj Gym\\Web Dev Proj Gym.csproj",
       "projectName": "Web Dev Proj Gym",
-      "projectPath": "C:\\Colman\\Web-Dev-Gym\\Web-Dev-Gym\\Web Dev Proj Gym\\Web Dev Proj Gym.csproj",
-      "packagesPath": "C:\\Users\\ytalu\\.nuget\\packages\\",
-      "outputPath": "C:\\Colman\\Web-Dev-Gym\\Web-Dev-Gym\\Web Dev Proj Gym\\obj\\",
+      "projectPath": "C:\\Colman\\Web-Dev-Gym\\Web Dev Proj Gym\\Web Dev Proj Gym.csproj",
+      "packagesPath": "C:\\Users\\emily\\.nuget\\packages\\",
+      "outputPath": "C:\\Colman\\Web-Dev-Gym\\Web Dev Proj Gym\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\ytalu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emily\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7552,7 +7557,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
