@@ -54,7 +54,7 @@ namespace Web_Dev_Proj_Gym.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Address,NumOfEmployees")] Branch branch)
+        public async Task<IActionResult> Create([Bind("ID,Address,NumOfEmployees,Manager")] Branch branch)
         {
             if (ModelState.IsValid)
             {
