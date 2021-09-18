@@ -1,4 +1,4 @@
-﻿@model Web_Dev_Proj_Gym.Models.Admin
+﻿@model Web_Dev_Proj_Gym.Models.BranchManager
 
 @{
     ViewData["Title"] = "Details";
@@ -7,26 +7,26 @@
 <h1>Details</h1>
 
 <div>
-    <h4>Admin</h4>
+    <h4>BranchManager</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AdminUserName)
+            @Html.DisplayNameFor(model => model.BMUserName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AdminUserName)
+            @Html.DisplayFor(model => model.BMUserName)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AdminPassword)
+            @Html.DisplayNameFor(model => model.BMPassword)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AdminPassword)
+            @Html.DisplayFor(model => model.BMPassword)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AdminName)
+            @Html.DisplayNameFor(model => model.BMName)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.AdminName)
+            @Html.DisplayFor(model => model.BMName)
         </dd>
     </dl>
 </div>

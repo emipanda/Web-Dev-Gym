@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Web_Dev_Proj_Gym.Models.Admin>
+﻿@model IEnumerable<Web_Dev_Proj_Gym.Models.BranchManager>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,13 +13,13 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.AdminUserName)
+                @Html.DisplayNameFor(model => model.BMUserName)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AdminPassword)
+                @Html.DisplayNameFor(model => model.BMPassword)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.AdminName)
+                @Html.DisplayNameFor(model => model.BMName)
             </th>
             <th></th>
         </tr>
@@ -28,13 +28,13 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.AdminUserName)
+                @Html.DisplayFor(modelItem => item.BMUserName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AdminPassword)
+                @Html.DisplayFor(modelItem => item.BMPassword)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AdminName)
+                @Html.DisplayFor(modelItem => item.BMName)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |

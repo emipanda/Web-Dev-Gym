@@ -11,6 +11,7 @@ namespace Web_Dev_Proj_Gym.Models
         [Key]
         public string UserName{ get; set; }
         public string Password { get; set; }
+        public Branch CustomersBranch { get; set; }
         public List<CustomerTrainings> MyTrainings { get; set; }
     }
 }
