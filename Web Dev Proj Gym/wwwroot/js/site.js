@@ -3,8 +3,10 @@
 
 // Write your JavaScript code.
 $(document).ready(function () {
-    $('#loginModal').modal('show');
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    })
+    $('#login_btn').click(function () {
+        $('#loginModal').modal('show');
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    }
 });
