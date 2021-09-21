@@ -341,28 +341,8 @@ C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\scopedcss\bu
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.TagHelpers.input.cache
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.TagHelpers.output.cache
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.RazorCoreGenerate.cache
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Create.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Delete.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Details.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Edit.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Index.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Create.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Delete.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Details.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Edit.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Index.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Create.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Delete.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Edit.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Index.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Create.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Delete.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Details.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Edit.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Index.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -381,11 +361,22 @@ C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\ref\Web Dev Proj Gym.dll
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.pdb
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.genruntimeconfig.cache
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Branches\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Index.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Create.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Delete.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Details.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Index.cshtml.g.cs
+<<<<<<< HEAD
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Create.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Delete.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Details.cshtml.g.cs
@@ -396,9 +387,51 @@ C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Delet
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Details.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Edit.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Admins\Index.cshtml.g.cs
+=======
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\CustomerTrainings\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Employees\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Lessons\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.csproj.AssemblyReference.cache
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\BranchManagers\Index.cshtml.g.cs
+>>>>>>> 4ee6636dba80c23cccbb512681318a628ee5defe
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Create.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Delete.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Details.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\Customers\Index.cshtml.g.cs
-C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Web Dev Proj Gym.csproj.AssemblyReference.cache
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Create.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Delete.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Details.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Edit.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\obj\Debug\net5.0\Razor\Views\SuperAdmins\Index.cshtml.g.cs
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\EntityFramework.SqlServer.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\EntityFramework.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.AspNet.Identity.Core.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.AspNet.Identity.Owin.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.Owin.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.Owin.Security.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.Owin.Security.Cookies.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Microsoft.Owin.Security.OAuth.dll
+C:\Colman\Web-Dev-Gym\Web Dev Proj Gym\bin\Debug\net5.0\Owin.dll
